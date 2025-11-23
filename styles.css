@@ -1,2 +1,52 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. */body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #1d1d2c, #0f0f16);
+  font-family: "Poppins", sans-serif;
+  color: #eaeaea;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 50px auto;
+  max-width: 1100px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.moviePic {
+  height: 450px;
+  width: 320px;
+  opacity: 0.9;
+  border-radius: 12px;
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.5);
+  transition: 0.4s ease;
+}
+
+.moviePic:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.content h2 {
+  font-size: 34px;
+  color: #ff6b00;
+  margin: 0 0 20px;
+}
+
+.movieDetail {
+  position: relative;
+  top: 15px;
+  width: 70%;
+  text-align: center;
+  font-size: 19px;
+  padding: 20px;
+  line-height: 1.7;
+  background: rgba(255,255,255,0.07);
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  border-left: 5px solid #ff6b00;
+}
